@@ -27,7 +27,7 @@ submit.addEventListener("click",()=>{
     const mrks = marks.value;
   
     if(nme==""||ROnum==""||mrks==""){
-        alert("Fill the form")
+        // alert("Fill the form")
         return;
     }
     let score = Number(marks.value)
